@@ -51,11 +51,9 @@
 								<div class="dropdown">
 									<a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> <img src="assets/images/eng-flg.jpg" alt="eng-flg" /> English <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
-										<li> <a href="#">One more dropdown</a> </li>
-										<li><a href="#">Something else here</a></li>
-										<li><a href="#">Separated link</a></li>
+									<li><a href="#">English</a></li>
+									<li><a href="#">French</a></li>
+									<li><a href="#">Chinese</a></li>
 									</ul>
 								</div>
 							</li>
@@ -64,13 +62,20 @@
 										USD <i class="fa fa-angle-down" aria-hidden="true"></i>
 									</a>
 									<ul class="dropdown-menu">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
-										<li> <a href="#">One more dropdown</a> </li>
+									<li><a href="#">USD</a></li>
+									<li><a href="#">EUR</a></li>
+									<li><a href="#">CNY</a></li>
 									</ul>
 								</div>
 							</li>
-							<li> <span>Hello Custumer - Login or Registe!</span> </li>
+							<li> 
+							<span>Hello, Guest! Please</span>
+							<li class="">
+							 <a href="checkout.html" role="button"><span class="btn btn-default login-register">Login</span></a></li>
+							<span>or</span>
+							<li class="">
+								<a href="checkout.html" role="button"><span class="btn btn-default login-register">Register</span></a></li>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -109,15 +114,22 @@
 							<div class="btn-group">
 								<a class="btn dropdown-toggle btn-select" data-toggle="dropdown" href="#">All Categories <span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Item I</a></li>
-									<li><a href="#">Item II</a></li>
-									<li><a href="#">Item III</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Other</a></li>
+								<li><a href="#">Vitamins</a></li>
+								<li><a href="#">Health & Medicine</a></li>
+								<li><a href="#">Home Health Care</a></li>
+								<li><a href="#">Digestive Health</a></li>
+								<li><a href="#">Personal Care</a></li>
+								<li><a href="#">Skin Care</a></li>
+								<li><a href="#">Hair Care</a></li>
+								<li><a href="#">Baby & Child</a></li>
+								<li><a href="#">Beauty</a></li>
+								<li><a href="#">Household & Grocery</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Other</a></li>
 								</ul>
 							</div>
 							<div class="search">
-								<input type="text" placeholder="Where prodect" />
+								<input type="text" placeholder="Search by Product or Symptoms" />
 							</div>
 							<div class="btn-group">
 								<button type="button" id="btnSearch" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -136,15 +148,15 @@
 									<div class="cart-content">
 										<div class="col-sm-4 col-md-4"><img src="assets/images/elec-img4.jpg" alt="13"></div>
 										<div class="col-sm-8 col-md-8">
-											<div class="pro-text"> <a href="#">Apple Macbook Retina 23’’ </a>
-												<div class="close">x</div> <strong>1 × $290.00</strong> </div>
+											<div class="pro-text"> <a href="#">Fever Reducer Aspirin Tablets, 325 mg, 500 Ct </a>
+												<div class="close">x</div> <strong>1 × $29.00</strong> </div>
 										</div>
 									</div>
 									<div class="cart-content">
 										<div class="col-sm-4 col-md-4"><img src="assets/images/elec-img3.jpg" alt="13"></div>
 										<div class="col-sm-8 col-md-8">
-											<div class="pro-text"> <a href="#">Apple Macbook Retina 23’’ </a>
-												<div class="close">x</div> <strong>1 × $290.00</strong> </div>
+											<div class="pro-text"> <a href="#">White Willow Herb Powder </a>
+												<div class="close">x</div> <strong>1 × $29.00</strong> </div>
 										</div>
 									</div>
 									<div class="total">
@@ -279,10 +291,9 @@
 								</ul>
 							</li>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="list.html">List</a></li>
-							<li><a href="grid.html">Grid</a></li>
-							<li><a href="shop-detail.html">Shop-detail</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="#">Pharmacy Help</a></li>
+							<li><a href="#">Care Clinic</a></li>
+							<li><a href="#">Prescriptions</a></li>
 							<li><a href="shopping-cart.html">Shopping-cart</a></li>
 							<li><a href="checkout.html">Checkout</a></li>
 						</ul>
@@ -299,14 +310,8 @@
 		<!-- .grid-shop -->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<ol class="breadcrumb">
-						<li class="breadcrumb-item"><a href="#">Home</a></li>
-						<li class="breadcrumb-item active">Library</li>
-					</ol>
-				</div>
-				<div class="col-sm-3 col-md-3">
-					<div class="weight">
+<div class="col-sm-3 col-md-3">
+		  <div class="weight">
 						<div class="title">
 							<h2>Categories</h2>
 						</div>
@@ -326,29 +331,29 @@
 							<h2>filter by price</h2>
 						</div>
 						<div class="filter-outer">
-							<h3>Price</h3>
-							<!-- Bootstrap Pricing Slider by ZsharE -->
-							<div class="button-slider">
-								<div class="btn-group">
-									<div class="btn btn-default">
-										<p>Range: <strong>$<span id="sliderValue">100.0</span></strong> - <strong>$<span id="sliderValue2">1.700.00</span></strong> </p>
-										<input id="bootstrap-slider" data-slider-min="1" data-slider-max="1700" data-slider-step="1" data-slider-value="100" type="text">
-										<div class="valueLabelblck">Filter</div>
-									</div>
-								</div>
-							</div>
-							<!-- End of Bootstrap Pricing Slider by ZsharE -->
-							<div class="brands">
-								<h3>Brands</h3>
-								<ul>
-									<li><a href="#">Black  <span>(10)</span></a></li>
-									<li><a href="#">White   <span>(13)</span></a></li>
-									<li><a href="#">Blue  <span>(05)</span></a></li>
-									<li><a href="#">Red  <span>(87)</span></a></li>
-									<li><a href="#">Screen <span>(40)</span></a></li>
-								</ul>
-							</div>
-<!--
+						  <h3>Price</h3>
+						  <!-- Bootstrap Pricing Slider by ZsharE -->
+						  <div class="button-slider">
+						    <div class="btn-group">
+						      <div class="btn btn-default">
+						        <p>Range: <strong>$<span id="sliderValue">100.0</span></strong> - <strong>$<span id="sliderValue2">1.700.00</span></strong></p>
+						        <input id="bootstrap-slider" data-slider-min="1" data-slider-max="1700" data-slider-step="1" data-slider-value="100" type="text">
+						        <div class="valueLabelblck">Filter</div>
+					          </div>
+					        </div>
+					      </div>
+						  <!-- End of Bootstrap Pricing Slider by ZsharE -->
+						  
+						  <div class="brands">
+						    <h3>Brands</h3>
+						    <ul>
+						      <li><a href="#">equate <span>(10)</span></a></li>
+						      <li><a href="#">tylenol <span>(13)</span></a></li>
+						      <li><a href="#">nyquil <span>(05)</span></a></li>
+						      <li><a href="#">geritol <span>(87)</span></a></li>
+					        </ul>
+					      </div>
+						  <!--
 							<div class="color">
 								<h3>Color</h3>
 								<ul>
@@ -372,8 +377,8 @@
 								</ul>
 							</div>
 -->
-						</div>
-					</div>
+					  </div>
+</div>
 					<div class="weight">
 						<div class="title">
 							<h2>Compare products</h2>
@@ -388,15 +393,14 @@
 						<div class="toprating-box">
 							<ul>
 								<li>
-									<div class="e-product">
+								  <div class="e-product">
 										<div class="pro-img"> <img src="assets/images/products/digital/5.jpg" alt="2"> </div>
-										<div class="pro-text-outer"> <span> Tablets </span>
-											<a href="#">
-												<h4> Tablets </h4>
+										<div class="pro-text-outer"> <a href="#">
+										<h4> Tablets </h4>
 											</a>
 											<p class="wk-price">$29.00 </p>
-										</div>
 									</div>
+								  </div>
 								</li>
 							</ul>
 						</div>
@@ -412,11 +416,10 @@
 									<span class="btn-select-value">Select an Item</span>
 									<span class="btn-select-arrow fa fa-angle-down"></span>
 									<ul>
-										<li class="selected">Default Sorting</li>
-										<li>Option 1</li>
-										<li>Option 2</li>
-										<li>Option 3</li>
-										<li>Option 4</li>
+										<li class="selected">Sort by Relevance</li>
+										<li>Sort by Price:low to high</li>
+										<li>Sort by Price:low to high</li>
+										<li>Sort by Reivews</li>
 									</ul>
 								</a>
 							</div>
@@ -429,7 +432,7 @@
 							<!-- .pro-img -->
 							<div class="pro-img"> <img src="assets/images/products/digital/2.jpg" alt="2">
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -445,9 +448,9 @@
 						<!-- .pro-text -->
 						<div class="pro-text text-center">
 							<!-- .pro-img -->
-							<div class="pro-img"> <img src="assets/images/products/digital/2.jpg" alt="2"> <sup class="sale-tag">sale!</sup>
+							<div class="pro-img"> <img src="assets/images/diet-img1.jpg" alt="2"> <sup class="sale-tag">sale!</sup>
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -455,7 +458,8 @@
 								<a href="#">
 									<h4> Tylenol pain reliever </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -465,7 +469,7 @@
 							<!-- .pro-img -->
 							<div class="pro-img"> <img src="assets/images/products/digital/3.jpg" alt="2">
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -473,7 +477,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -481,9 +486,9 @@
 						<!-- .pro-text -->
 						<div class="pro-text text-center">
 							<!-- .pro-img -->
-							<div class="pro-img"> <img src="assets/images/products/digital/4.jpg" alt="2">
+							<div class="pro-img"> <img src="assets/images/diet-img2.jpg" alt="2">
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -491,7 +496,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -501,7 +507,7 @@
 							<!-- .pro-img -->
 							<div class="pro-img"> <img src="assets/images/products/digital/5.jpg" alt="2"> <sup class="new-tag">NEW!</sup>
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -509,7 +515,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -517,9 +524,8 @@
 						<!-- .pro-text -->
 						<div class="pro-text text-center">
 							<!-- .pro-img -->
-							<div class="pro-img"> <img src="assets/images/products/digital/6.jpg" alt="2"> <sup class="sale-tag">sale!</sup>
-								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+							<div class="pro-img"> <img src="assets/images/diet-img4.jpg" alt="2">							  <!-- .hover-icon -->
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -527,7 +533,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -537,7 +544,7 @@
 							<!-- .pro-img -->
 							<div class="pro-img"> <img src="assets/images/products/digital/7.jpg" alt="2">
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -545,7 +552,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -553,9 +561,8 @@
 						<!-- .pro-text -->
 						<div class="pro-text text-center">
 							<!-- .pro-img -->
-							<div class="pro-img"> <img src="assets/images/products/digital/8.jpg" alt="2"> <sup class="sale-tag">sale!</sup>
-								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+							<div class="pro-img"> <img src="assets/images/diet-img6.jpg" alt="2">							  <!-- .hover-icon -->
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -563,7 +570,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -571,9 +579,9 @@
 						<!-- .pro-text -->
 						<div class="pro-text text-center">
 							<!-- .pro-img -->
-							<div class="pro-img"> <img src="assets/images/products/digital/9.jpg" alt="2">
+							<div class="pro-img"> <img src="assets/images/diet-img8.jpg" alt="2">
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -581,7 +589,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -589,9 +598,9 @@
 						<!-- .pro-text -->
 						<div class="pro-text text-center">
 							<!-- .pro-img -->
-							<div class="pro-img"> <img src="assets/images/products/digital/10.jpg" alt="2">
+							<div class="pro-img"> <img src="assets/images/elec-img1.jpg" alt="2">
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -599,7 +608,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -607,9 +617,9 @@
 						<!-- .pro-text -->
 						<div class="pro-text text-center">
 							<!-- .pro-img -->
-							<div class="pro-img"> <img src="assets/images/products/digital/11.jpg" alt="2">
+							<div class="pro-img"> <img src="assets/images/elec-img7.jpg" alt="2">
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -617,7 +627,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -625,9 +636,9 @@
 						<!-- .pro-text -->
 						<div class="pro-text text-center">
 							<!-- .pro-img -->
-							<div class="pro-img"> <img src="assets/images/products/digital/12.jpg" alt="2">
+							<div class="pro-img"> <img src="assets/images/elec-img6.jpg" alt="2">
 								<!-- .hover-icon -->
-								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a> <a href="#"><span class="icon icon-Restart"></span></a> </div>
+								<div class="hover-icon"> <a href="#"><span class="icon icon-Heart"></span></a> <a href="#"><span class="icon icon-Search"></span></a>  </div>
 								<!-- /.hover-icon -->
 							</div>
 							<!-- /.pro-img -->
@@ -635,7 +646,8 @@
 								<a href="#">
 									<h4> Apple Macbook Retina 23’ </h4>
 								</a>
-								<p class="wk-price">$290.00 </p> <a href="#" class="add-btn">Add to cart</a> </div>
+								<p class="wk-price">$29.00 </p>
+								<a href="#" class="add-btn">Add to cart</a> </div>
 						</div>
 						<!-- /.pro-text -->
 					</div>
@@ -659,7 +671,7 @@
 						</div>
 					</div>
 
-				</div>
+			  </div>
 			</div>
 		</div>
 		<!-- /.grid-shop -->
