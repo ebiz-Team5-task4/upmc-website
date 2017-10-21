@@ -17,9 +17,9 @@
   $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
 });
 
-$("#btnSearch").on('click', function (){
-	alert($('.btn-select').text()+", "+$('.btn-select2').text());
-});
+// $("#btnSearch").on('click', function (){
+// 	alert($('.btn-select').text()+", "+$('.btn-select2').text());
+// });
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').on('click', function(event) {
