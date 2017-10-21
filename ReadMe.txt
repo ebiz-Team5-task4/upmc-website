@@ -36,9 +36,8 @@ In Login page, when a user clicks on Login, it takes to the prefilled checkout p
 
 On register page, the social media register buttons are not implemented. 
 
-On checkout page, in billing address, there is a radio button "Same as shipping address". It is not implemented.
-
+On search page, There are two buttons left of sort dropdown, they are to change view of results from grid to list and back. Not implemented.
 
 On product detail page, two buttons appear when you hover on each product. Heart is to add to wishlist. Magnifying glass button takes to product detail page.
 
-
+On checkout page, in billing address, there is a radio button "Same as shipping address". It is not implemented.
