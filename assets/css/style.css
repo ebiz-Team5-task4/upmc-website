@@ -1451,7 +1451,7 @@ a:hover {
 .half-banner {
 	float: left;
 	width: 100%;
-	padding: 50px 0;
+	padding: 25px 0;
 }
 .half-banner img {
 	width: 100%;
@@ -2749,7 +2749,7 @@ ul {
 .twi-btn {
 	background: #16bce6 none repeat scroll 0 0;
 	color: #fff;
-	float: right;
+	float: left;
 	letter-spacing: 1.2px;
 	padding: 10px;
 	text-align: center;
@@ -3308,11 +3308,11 @@ ul {
 	background: #2c5990 none repeat scroll 0 0;
 	color: #fff;
 	float: left;
-	letter-spacing: 1.2px;
+	letter-spacing: 1px;
 	padding: 10px;
 	text-align: center;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
-	width: 48%;
+	width: 40%;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -3323,12 +3323,12 @@ ul {
 .twi-btn {
 	background: #16bce6 none repeat scroll 0 0;
 	color: #fff;
-	float: right;
-	letter-spacing: 1.2px;
+	float: left;
+	letter-spacing: 1px;
 	padding: 10px;
 	text-align: center;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-	width: 48%;
+	width: 40%;
 	text-decoration: none;
 	text-transform: uppercase;
 }
