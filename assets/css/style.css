@@ -1114,7 +1114,7 @@ a:hover {
 	text-transform: uppercase;
 }
 .add-btn:hover {
-	background: #000 none repeat scroll 0 0;
+	background: #b11e22 none repeat scroll 0 0;
 	text-decoration: none;
 	color: #fff;
 }
@@ -1320,9 +1320,9 @@ a:hover {
 	font-weight: 100;
 }
 .new-arrivals .add-btn {
-	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	background: #b11e22 none repeat scroll 0 0;
 	border: 1px solid #eee;
-	color: #a7a7a7;
+	color: #fff;
 	transition: all 0.15s ease-in-out 0s;
 }
 .new-arrivals .pro-text-outer:hover .add-btn {
@@ -1388,9 +1388,9 @@ a:hover {
 	margin-bottom: 19px;
 }
 .electonics .add-btn {
-	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	background: #b11e22 none repeat scroll 0 0;
 	border-radius: 3px;
-	color: rgb(167, 167, 167);
+	color: #fff;
 	display: inline-block;
 	font-size: 12px;
 	margin: 20px 0;
@@ -1621,10 +1621,10 @@ a:hover {
 	margin-top: 20px;
 }
 .blog-text-outer .add-btn {
-	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	background: #b11e22 none repeat scroll 0 0;
 	border: 1px solid rgb(238, 238, 238);
 	border-radius: 3px;
-	color: rgb(167, 167, 167);
+	color: #fff;
 	display: inline-block;
 	font-size: 12px;
 	margin: 20px 0;
@@ -1632,7 +1632,7 @@ a:hover {
 	text-transform: uppercase;
 }
 .blog-text-outer .add-btn:hover {
-	background: rgb(177, 30, 34);
+	background: #b11e22;
 	color: #fff;
 }
 .home-blog .owl-item>div {
@@ -2150,9 +2150,9 @@ ul {
 	font-weight: 300;
 }
 .grid-shop .add-btn {
-	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	background: #b11e22 none repeat scroll 0 0;
 	border: 1px solid #eee;
-	color: #a7a7a7;
+	color: #fff;
 	transition: all 0.15s ease-in-out 0s;
 }
 .grid-shop .pro-text-outer:hover .add-btn,
@@ -2517,7 +2517,7 @@ ul {
 	font-weight: 500;
 }
 .pro-text-outer.list-pro-text .add-btn {
-	background: rgb(51, 62, 72) none repeat scroll 0 0;
+	background: #b11e22 none repeat scroll 0 0;
 	border: 1px solid rgb(51, 62, 72);
 	border-radius: 3px;
 	color: rgb(255, 255, 255);
@@ -2748,7 +2748,7 @@ ul {
 .twi-btn {
 	background: #16bce6 none repeat scroll 0 0;
 	color: #fff;
-	float: left;
+	float: right;
 	letter-spacing: 1.2px;
 	padding: 10px;
 	text-align: center;
@@ -3322,7 +3322,7 @@ ul {
 .twi-btn {
 	background: #16bce6 none repeat scroll 0 0;
 	color: #fff;
-	float: left;
+	float: right;
 	letter-spacing: 1px;
 	padding: 10px;
 	text-align: center;
