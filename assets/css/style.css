@@ -2610,9 +2610,9 @@ ul {
 	width: 100%;
 }
 .shipping-outer input {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding: 5px;
-	width: 100%;
+	width: 50%;
 }
 .size.State {
 	margin: 0;
@@ -3190,9 +3190,9 @@ ul {
 	width: 100%;
 }
 .shipping-outer input {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	padding: 5px;
-	width: 100%;
+	width: 50%;
 }
 .size.State {
 	margin: 0;
