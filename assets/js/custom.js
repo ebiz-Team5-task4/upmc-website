@@ -17,10 +17,6 @@
   $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
 });
 
-// $("#btnSearch").on('click', function (){
-// 	alert($('.btn-select').text()+", "+$('.btn-select2').text());
-// });
-
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').on('click', function(event) {
         var $anchor = $(this);
@@ -74,6 +70,11 @@ $(document).ready(function () {
             $(this).find(".btn-select-input").val(value);
             $(this).find(".btn-select-value").html(value);
         }
+    });
+
+    $('#searchBox').keypress(function(e){
+      if(e.keyCode==13)
+      window.location.href='search.html';
     });
 });
 
@@ -147,4 +148,3 @@ $(document).on('click', function (e) {
       });
 	
 })(jQuery); // End of use strict
- 
