@@ -2970,6 +2970,7 @@ ul {
 	border: medium none;
 }
 .tag {
+	padding-top: 20px;
 	float: left;
 	font-size: 14px;
 	margin-bottom: 30px;
@@ -3108,6 +3109,7 @@ ul {
 	margin-right: 15px;
 }
 .product-detail.pro-text .tag span {
+	padding-top: 20px;
 	color: rgb(136, 136, 136);
 	font-size: 12px;
 }
