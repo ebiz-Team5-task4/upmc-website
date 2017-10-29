@@ -24,7 +24,7 @@ There is a red arrow button on bottom right. That is to take user to top of page
 On top black bar, 
 1. Where it says "English", its a dropdown to change language. Other languages are not implemented.
 2. "Store Location" and "Track Your Order" are extra feature pages. Not implemented.
-3. "Setting" is user account settings. Not implemented.
+3. "My Account" is user account settings. Not implemented.
 
 The tab headers at the right of "Shop by category" are intended features. Not implemented.
 
